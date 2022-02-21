@@ -37,7 +37,7 @@ header{
 .nav-center form{
     display: flex;
     border: 2px solid black;
-    height: 45px;
+    height: 40px;
 }
 
 .nav-center form input{
@@ -53,10 +53,19 @@ header{
     justify-content: center;
    }
 
-   .mic {
-margin-top: 10px;
-margin-left: 10px;
-   }
+   /* .mic {
+     margin-top: 10px;
+     margin-left: 10px;
+   } */
+
+#mic-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 2px solid black;
+    padding: 2px 3px;
+    margin-left: 7px;
+}
 
    #menu{
        font-size: 35px;
@@ -70,3 +79,4 @@ margin-left: 10px;
     margin-left: 15px;
     display: flex;
   }
+
