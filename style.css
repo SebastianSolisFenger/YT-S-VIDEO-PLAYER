@@ -51,6 +51,7 @@ header{
     display: flex;
     align-items: center;
     justify-content: center;
+     cursor: pointer;
    }
 
 
@@ -62,6 +63,7 @@ header{
     border: 2px solid black;
     padding: 2px 3px;
     margin-left: 7px;
+    cursor: pointer;
 }
 
    #menu{
@@ -70,6 +72,7 @@ header{
 
    .nav-end i {
      margin-left: 10px;
+     cursor: pointer;
    }
 
    .nav-end  {
@@ -82,10 +85,10 @@ header{
 .row {
   display: flex;
   justify-content: space-around;
-  align-items: center;
+  /* align-items: center; */
   background-color: rgb(155, 128, 202);
   width: 100%;
-    border: 2px solid rgb(255, 0, 43);
+  border: 2px solid rgb(255, 0, 43);
 }
 
 .col  {
@@ -95,23 +98,22 @@ header{
     height: 100%;
     background-color: rgb(103, 103, 187);
     border: 2px solid  yellow;
-    margin: 20px 15px;
+
 }
 
-
    .side-bar{
-    width: 25%;
+    width: 27%;
+    height: 100%;
+    padding: 15px 2px;
    }
-
-   
 
    .video-section {
        width: 70%;
- 
+       padding: 15px 8px;
    }
 
    .video-box {
-       margin-top: 30px;
+       margin-top: 10px;
        border: 2px solid greenyellow;
        display: flex;
        justify-content: center;
@@ -120,7 +122,7 @@ header{
    }
 
    .info-video {
-       padding: 20px 8px ;
+       padding: 20px 10px ;
        border-bottom: 2px solid black;
    }
 
@@ -133,6 +135,7 @@ header{
    .info-menu-buttons i {
        font-size: 25px;
        padding: 10px;
+       cursor: pointer;
    }
 
    .info-menu-buttons {
@@ -145,7 +148,14 @@ header{
        align-items: center;
        justify-content:space-between;
        /* margin: 0px 10px; */
-       padding: 10px 8px;
+       /* padding: 8px 8px; */
+   }
+
+   .description-video{
+    padding: 20px 10px;
+    border-bottom: 2px solid black;
+    /* margin-bottom: 30px; */
+    
    }
 
    .channel-info {
@@ -154,6 +164,7 @@ header{
 
    .channel-info img{
        margin-right: 15px;
+       border-radius: 40px;
 
 }
 
@@ -168,14 +179,161 @@ header{
 
 }
 
+.description-body {
+ margin-left: 70px;
+  }
 
-   
-
+.description-body .para-des-body{
+  width: 70%;
+  margin-bottom: 15px;
   
+}
 
+.description-body button{
+   padding: 10px 10px;
+     }
+
+
+
+ .comment-section {
+     padding: 20px 10px;
+ }    
+ .comment-header .counter-comments {
+     display: flex;
+     margin-left: 35px;
+     margin-bottom: 20px;
+ }    
+
+ .comment-header .counter-comments .para-counter {
+    margin-right: 40px;
+}    
+
+.para-counter-2 {
+    margin-left: 10px;
+}
+
+.comment-insert-opinion {
+    display: flex;
+    align-items: center;
+}
+
+.comment-insert-opinion img{
+   border-radius: 40px;
+   margin-right: 20px;
+}
+
+.comment-insert-opinion input{
+    width: 80%;
+    height: 40px;
+    border-radius: 40px;
+ }
+
+ .comments {
+     display: flex;
+     margin-top: 40px;
+ }
+
+ .comments img{
+    display: flex;
+    height: 48px;
+    width: 48px;
+     border-radius: 40px;
+}
+
+
+ .comment-box {
+     display: flex;
+     flex-direction: column;
+     width: 100%;
+     margin-left: 20px;
+     padding: 10px ;
+     border-bottom: 2px solid black;
+ }
+
+ .comment-box  .comment-buttons{
+    display: flex;
+    margin-top: 20px;
+   
+}
+
+.comment-box  .comment-buttons i{
+  /* padding: 10px 5px; */
+  display: flex;
+  margin-right: 20px;
+  cursor: pointer;
+  font-size: 18px;
+}
+
+.comment-box  .comment-buttons i p{
+    /* padding: 10px 5px; */
+
+    margin-left: 10px;
+  }
+
+
+
+/* //////////////////////// */
+
+.preview-container {
+    padding: 10px 5px;
+    border-bottom: 2px solid black;
+    margin-bottom: 10px;
+}
+
+.preview-container a{
+    display: flex;
+    text-decoration: none;
+    color: black;
+}
+
+.video-thumnail img{
+    width: 400px;
+    max-width: 100%;
+    height: auto;
+}
+
+.video-thumnail {
+ position: relative;
+ margin-right: 10px;
+         margin-bottom: 15px;
+}
+
+
+.video-length {
+    background-color: black;
+    width: 65px;
+    border-radius: 8px;
+    color: whitesmoke;
+    position: absolute;
+    right: 2px;
+    text-align: center;
+}
+
+.preview-metadata {
+    display: flex;
+    flex-direction: column;
+}
+
+.preview-metadata .title-metadata {
+   margin-bottom: 10px;
+   font-size: 15px;
+}
+
+
+/* ////////////////////////////// */
 
    @media screen and  (max-width: 850px){
        .row {
            flex-direction: column;
+           justify-content: center;
+           align-items: center;
+       }
+
+       .video-section{
+           margin-bottom: 20px;
+       }
+
+       .col {
+           width: 90%;
        }
    }
