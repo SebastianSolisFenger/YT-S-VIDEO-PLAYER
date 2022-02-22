@@ -4,7 +4,7 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
-  color: whitesmoke;
+    color: whitesmoke;
 }
 
 button, button i, input {
@@ -338,7 +338,24 @@ header{
 
 /* ////////////////////////////// */
 
-   @media screen and  (max-width: 850px){
+   @media screen and  (max-width: 950px){
+
+         
+       header {
+           flex-direction: column;
+           margin-bottom: 150px;
+       }
+
+       body {
+           background-color: rgb(0, 0, 0);
+       }
+
+       .nav-end {
+           justify-content: center;
+           align-items: center;
+           margin-top: 30px;
+       }
+
        .row {
            flex-direction: column;
            justify-content: center;
@@ -352,4 +369,6 @@ header{
        .col {
            width: 90%;
        }
+
+
    }
