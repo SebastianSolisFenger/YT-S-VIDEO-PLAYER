@@ -343,7 +343,8 @@ header{
          
        header {
            flex-direction: column;
-           margin-bottom: 150px;
+           margin-bottom: 40px;
+           height: 100%;
        }
 
        body {
@@ -351,11 +352,10 @@ header{
        }
 
        .nav-end {
-           justify-content: center;
-           align-items: center;
            margin-top: 30px;
        }
 
+    
        .row {
            flex-direction: column;
            justify-content: center;
