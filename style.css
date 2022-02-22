@@ -53,10 +53,7 @@ header{
     justify-content: center;
    }
 
-   /* .mic {
-     margin-top: 10px;
-     margin-left: 10px;
-   } */
+
 
 #mic-btn {
     display: flex;
@@ -80,3 +77,105 @@ header{
     display: flex;
   }
 
+/* /////////////////////////// */
+
+.row {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background-color: rgb(155, 128, 202);
+  width: 100%;
+    border: 2px solid rgb(255, 0, 43);
+}
+
+.col  {
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    height: 100%;
+    background-color: rgb(103, 103, 187);
+    border: 2px solid  yellow;
+    margin: 20px 15px;
+}
+
+
+   .side-bar{
+    width: 25%;
+   }
+
+   
+
+   .video-section {
+       width: 70%;
+ 
+   }
+
+   .video-box {
+       margin-top: 30px;
+       border: 2px solid greenyellow;
+       display: flex;
+       justify-content: center;
+       width: 100%;
+       height: auto;
+   }
+
+   .info-video {
+       padding: 20px 8px ;
+       border-bottom: 2px solid black;
+   }
+
+   .info-bar  {
+       display: flex;
+       justify-content: space-between;
+       align-items: center;
+   }
+
+   .info-menu-buttons i {
+       font-size: 25px;
+       padding: 10px;
+   }
+
+   .info-menu-buttons {
+    display: flex;
+    align-items: center;
+}
+
+   .description-header{
+       display: flex;
+       align-items: center;
+       justify-content:space-between;
+       /* margin: 0px 10px; */
+       padding: 10px 8px;
+   }
+
+   .channel-info {
+       display: flex;
+   }
+
+   .channel-info img{
+       margin-right: 15px;
+
+}
+
+   .button-sec button{
+       height: 45px;
+       width: 80px;
+
+   }
+
+   .button-sec {
+    padding: 10px 5px;
+
+}
+
+
+   
+
+  
+
+
+   @media screen and  (max-width: 850px){
+       .row {
+           flex-direction: column;
+       }
+   }
