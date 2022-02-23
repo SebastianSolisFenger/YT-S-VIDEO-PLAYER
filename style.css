@@ -371,11 +371,16 @@ header{
   
 
     .nav-center form, #mic-btn {
-     display: none;
-     width: 500px;
-     padding: 10px;
-     height: 100%;
+     position: fixed;
+     left: -200%;
+     top: 70px;
+     gap: 0;
+     transition: 0.3s;
     }
+
+    .nav-center form.active {
+          left: 0;
+       }
     
     .info-video, .info-bar {
         flex-direction: column;
