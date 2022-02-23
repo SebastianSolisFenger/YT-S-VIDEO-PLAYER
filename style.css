@@ -370,17 +370,29 @@ header{
    @media screen and (max-width: 730px ) {
   
 
-    .nav-center form, #mic-btn {
-     position: fixed;
-     left: -200%;
-     top: 70px;
-     gap: 0;
-     transition: 0.3s;
+    .nav-center  {
+     
+     
+      position: fixed;
+      left: -200%;
+      top: 70px;
+      gap: 0;
+
+
+     width: 500px;
+     padding: 10px;
+     height: 100%;
     }
 
-    .nav-center form.active {
-          left: 0;
-       }
+
+    .nav-center.active  {
+     
+     left: 0;
+      }
+
+    #menu {
+        cursor: pointer;
+    }
     
     .info-video, .info-bar {
         flex-direction: column;
