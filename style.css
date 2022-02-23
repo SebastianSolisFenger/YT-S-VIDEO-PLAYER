@@ -372,20 +372,23 @@ header{
 
     .nav-center, .nav-end  {
       display: none;
-      width: 650px;
-      padding: 10px;
-      height: 100%;
-     justify-content: center;
+ 
+     /* align-items: center; */
     }
 
 
     .nav-center form input  { 
-       width: 300px;
+       width: 360px;
       }
 
 
     .nav-center.active, .nav-end.active  {
       display: flex;
+      /* width: 250px; */
+      padding: 10px;
+      height: 200%; 
+     justify-content: center;
+     align-items: center;
      /* left: 0; */
       }
 
