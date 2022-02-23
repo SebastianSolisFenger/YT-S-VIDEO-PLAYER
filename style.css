@@ -386,7 +386,7 @@ header{
       }
 
 
-    .nav-center.active  {
+    .nav-center.active, .nav-end.active  {
       display: flex;
      /* left: 0; */
       }
