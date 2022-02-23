@@ -370,24 +370,34 @@ header{
    @media screen and (max-width: 730px ) {
   
 
-    .nav-center  {
+    .nav-center, .nav-end  {
+      display: none;
      
-     
-      position: fixed;
-      left: -200%;
+      /* position: fixed; */
+      /* left: -200%;
       top: 70px;
-      gap: 0;
-
-
-     width: 500px;
+      gap: 0; */
+      width: 650px;
      padding: 10px;
      height: 100%;
+     justify-content: center;
     }
 
 
-    .nav-center.active  {
+    #mic-btn {
+        display: none;
+    }
+
+    .nav-center form input  {
+  
+       width: 300px;
      
-     left: 0;
+      }
+
+
+    .nav-center.active  {
+      display: flex;
+     /* left: 0; */
       }
 
     #menu {
