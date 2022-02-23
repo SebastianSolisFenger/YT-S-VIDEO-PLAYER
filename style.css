@@ -295,14 +295,14 @@ header{
 }
 
 .video-thumnail img{
-    width: 450px;
+    width: 550px;
     max-width: 100%;
     height: 100%;
 }
 
 .video-thumnail {
  position: relative;
- margin-right: 10px;
+ margin-right: 15px;
  margin-bottom: 15px;
 }
 
